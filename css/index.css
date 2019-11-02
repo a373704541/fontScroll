@@ -1,0 +1,25 @@
+.font_scroll {
+    margin: 200px auto ;
+    background-color: chocolate;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.font_scroll>ul{
+}
+
+.font_scroll>ul>li {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.font_scroll>ul>li:nth-of-type(odd){
+    background-color: cornflowerblue;
+}
+
+.font_scroll>ul>li:nth-of-type(even){
+    background-color: rebeccapurple;
+}

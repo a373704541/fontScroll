@@ -1,0 +1,1 @@
+var fontScroll = new FontScroll('.font_scroll','#font_scroll_warp1','#font_scroll_warp2',20,9)
